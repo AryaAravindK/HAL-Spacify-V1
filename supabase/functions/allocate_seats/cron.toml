@@ -1,0 +1,3 @@
+[cron.weekly]
+schedule = "0 0 * * MON"  # Run at midnight every Monday
+job = "allocate_seats" 
